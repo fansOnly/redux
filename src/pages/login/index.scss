@@ -1,0 +1,27 @@
+.login-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login-title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.login-form {
+    width: 50%;
+    margin: 5% auto;
+}
+
+.login-form-forgot {
+    float: right;
+}
+
+.login-form-item {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,44 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true,
+        "commonjs": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": "plugin:react/recommended",
+    "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "quotes": [2, "single"],
+        "no-console": 0, 
+        "no-debugger": 2,
+        "no-var": 0,
+        "no-unused-vars": 2,
+        "semi": 0,
+        "no-irregular-whitespace": 0,
+        "no-trailing-spaces": 1,
+        "eol-last": 0,
+        "no-underscore-dangle": 0,
+        "no-alert": 2,
+        "no-class-assign": 2,
+        "no-cond-assign": 2,
+        "no-empty": 2,
+        "no-invalid-this": 0,
+        "no-spaced-func": 2,
+        "no-use-before-define": 2,
+        "camelcase": 0,
+        "react/prefer-es6-class": 2,
+        "react/no-did-mount-set-state": 0,
+        "react/no-did-update-set-state": 1
+    }
+}
